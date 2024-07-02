@@ -23,7 +23,7 @@ app.use(cors({ // Puede utilizar solo app.use(cors()) pero este establece todo l
             return callback(null, true)
         }
 
-        return callback(new Error('Not allowed by CORS'))
+        return callback(new Error('No permitido por el CORS'))
     }
 }))
 
